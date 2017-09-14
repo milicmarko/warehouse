@@ -12,7 +12,7 @@ public class DbConn {
 
 	public static Connection getConnection() throws SQLException {
 
-		Connection conn = DriverManager.getConnection("jdbc:sqlserver://slis;databaseName=MarkoTest;userName=marko;password=Euro2017");
+		Connection conn = DriverManager.getConnection("jdbc:sqlserver:****;databaseName=****;userName=****;password=****");
 		return conn;
 	}
 }
